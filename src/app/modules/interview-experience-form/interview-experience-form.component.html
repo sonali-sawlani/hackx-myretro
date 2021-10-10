@@ -1,0 +1,43 @@
+<h3>Interview Experience</h3>
+
+<form (ngSubmit)="onSubmit()">
+
+  <div>
+    <label for="company">
+      Company
+    </label>
+    <input id="name" type="text" formControlName="company">
+  </div>
+
+  <div>
+    <label for="role">
+      Role Interviewed For
+    </label>
+    <input id="role" type="text" formControlName="role">
+  </div>
+
+  <div>
+    <label for="yoe">
+      Required Years of Experience
+    </label>
+    <input id="yoe" type="text" formControlName="yoe">
+  </div>
+
+  <div>
+    <label for="techstack">
+      TechStack
+    </label>
+    <input id="techstack" type="text" formControlName="techstack">
+  </div>
+
+  <div>
+    <label for="interviewquestion">
+      Interview Question 
+    </label>
+    <input id="interviewquestion" type="text" formControlName="interviewquestion">
+  </div>
+
+  <button class="button" type="submit">Save</button>
+
+</form>
+
